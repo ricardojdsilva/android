@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/layout"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/lbFName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txFname" />
+
+            <EditText
+                android:id="@+id/txtFName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:text="@string/txFname"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/lbLName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txlname" />
+
+            <EditText
+                android:id="@+id/txLastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:text="@string/txlname"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/lbEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txEmail" />
+
+            <EditText
+                android:id="@+id/txEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:textSize="12sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/lbLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txLogin" />
+
+            <EditText
+                android:id="@+id/txLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/txLogin"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/lbPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtPassword" />
+
+            <EditText
+                android:id="@+id/txPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:textSize="12sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/lbBithdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txBirthday" />
+
+            <EditText
+                android:id="@+id/txBithDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="date"
+                android:minHeight="48dp"
+                android:textSize="12sp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/lbAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txAdress" />
+
+            <EditText
+                android:id="@+id/txAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/txAdress"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/lbzipcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txZipcode" />
+
+            <EditText
+                android:id="@+id/txZipCode"
+                android:layout_width="115dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                 android:text="@string/txZipcode"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/lbprovince"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txprovince" />
+
+            <Spinner
+                android:id="@+id/spProvince"
+                android:layout_width="171dp"
+                android:layout_height="48dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/lbphonenumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txphonenumber" />
+
+            <EditText
+                android:id="@+id/txphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:text="@string/txphonenumber"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/lbInterest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txInterest" />
+
+            <EditText
+                android:id="@+id/txInterst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:text="@string/txInterest"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/lbshareLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txShareLocation" />
+
+            <EditText
+                android:id="@+id/txShareLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                android:text="@string/txShareLocation"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btnSave" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
