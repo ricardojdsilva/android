@@ -22,7 +22,7 @@ public class MenssageToUser extends AppCompatActivity {
             public void onClick(View view) {
 
                 Toast.makeText(MenssageToUser.this,
-                        "Message sent", Toast.LENGTH_SHORT).show();
+                        "Message sendet", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(MenssageToUser.this, ManagerUsers.class));
             }
         });
